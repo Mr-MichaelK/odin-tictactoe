@@ -38,16 +38,17 @@ main {
     background-color: whitesmoke;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    gap: 2rem;
+    gap: 10rem;
 }
 
 .announcer {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    position: relative;
-    top: -15%;
+    font-weight: bold;
+    margin-top: 2rem;
+    text-align: center;
 }
 
 .grid {
@@ -57,10 +58,12 @@ main {
     grid-template-rows: repeat(3, 1fr);
     gap: 10px;
     border-radius: 10px;
+    margin-bottom: 2rem;
 }
 
 .cell {
     height: 120px;
     width: 120px;
+    border: none;
     background-color: whitesmoke;
 }
